@@ -1,24 +1,25 @@
-# README
+Meal plan 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+MVP
 
-Things you may want to cover:
+User can:
+- Make reviews
+- Edit reviews
+- Update reviews
+- Delete reviews
 
-* Ruby version
+- Make recipes using ingredients
+- Edit recipies
+- Update recipies
+- Delete recipies
 
-* System dependencies
+- Add Ingredients
+- Remove Ingredients
 
-* Configuration
+- Sort recipes by cuisine
+- Delete reviews
 
-* Database creation
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Stretch:
+- Filter by dietary restriction
+- Filter by calorie
