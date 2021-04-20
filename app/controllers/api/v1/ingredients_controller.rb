@@ -1,7 +1,7 @@
 class Api::V1::IngredientsController < ApplicationController
   def index
     ingredients = Ingredient.all
-    render json: ingredients
+    render json: ingredients, except: [:created_at, :updated_at]
   end
   def show
     ingredient = Ingredient.find_by(id: params[:id])

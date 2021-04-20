@@ -13,7 +13,7 @@
 ActiveRecord::Schema.define(version: 2021_04_19_222950) do
 
   create_table "cuisines", force: :cascade do |t|
-    t.string "type"
+    t.string "cuisine_type"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
@@ -28,7 +28,7 @@ ActiveRecord::Schema.define(version: 2021_04_19_222950) do
     t.string "name"
     t.string "image_url"
     t.text "instructions"
-    t.integer "user_id"
+    t.integer "cuisine_id"
     t.integer "ingredient_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false

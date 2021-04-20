@@ -1,7 +1,7 @@
 class CuisinesController < ApplicationController
     def index
         cuisines = Cuisine.all
-        render json: cuisines
+        render json: cuisines, except: [:created_at, :updated_at]
     end
 
     def show

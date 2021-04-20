@@ -1,7 +1,7 @@
 class Api::V1::RecipesController < ApplicationController
   def index
     recipes = Recipe.all
-    render json: recipes
+    render json: recipes, except: [:created_at, :updated_at]
   end
 
   def show
