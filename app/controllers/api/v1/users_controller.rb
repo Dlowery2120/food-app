@@ -9,7 +9,7 @@ class Api::V1::UsersController < ApplicationController
         if user
             render json: user, except: [:created_at, :updated_at]
         else
-            render json: {message: 'user not found'}
+            render json: {message: 'User not found'}
         end
     end
 end

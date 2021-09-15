@@ -17,7 +17,7 @@ c6 = Cuisine.create(cuisine_type: "French")
 c7 = Cuisine.create(cuisine_type: "Turkish")
 c8 = Cuisine.create(cuisine_type: "Mexican")
 c9 = Cuisine.create(cuisine_type: "Chinese")
-c10 = Cuisine.create(cuisine_type: "Nigerian")
+c10 = Cuisine.create(cuisine_type: "Jamaican")
 10.times do
     name = Faker::Food.ingredient
     Ingredient.create(name: name)
